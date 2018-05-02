@@ -1,7 +1,13 @@
-# [Welcome to The Odin Project, an open source web development curriculum](https://www.theodinproject.com)
-The Odin Project is an open source community and curriculum for learning web development. Students of The Odin Project build portfolio projects and complete lessons that are constantly curated and updated with links to relevant resources.
+#[Welcome to the Westlawn curriculum](https://www.westlawn.org)
+The Westlawn web site is based on a fork of The Odin Project. Therefore, the
+code remains under the same MIT license as The Odin Project.
 
-We teach:
+The Odin Project (https://www.theodinproject.com) is an open source community
+and curriculum for learning web development. Students of The Odin Project build
+portfolio projects and complete lessons that are constantly curated and updated
+with links to relevant resources.
+
+Odin teaches:
 * Ruby programming
 * Sinatra
 * Ruby on Rails
@@ -10,12 +16,37 @@ We teach:
 * Javascript and Jquery
 * How to go about getting a job in the industry
 
-This repo contains the main app for the Odin Project which can be found online at [theodinproject.com](https://www.theodinproject.com). It pulls in lesson and project content from our [curriculum repo](https://github.com/TheOdinProject/curriculum).
+Westlawn has two schools, the Yacht Design Institute (YDI) and Software
+Institute (STI). YDI teaches:
+* Yacht Design, the full 4 module course
+* Yacht Design Lite, a 1 module course that is a subset of the full course
+* Metal Corrosion in Boats
 
-The Odin project community can be found on our [Gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject).
+STI teaches:
+* Behavior Based Design for Object-Oriented C
+* Control Systems using Raspberry Pi
+
+## Complete system consists of two repos and Discourse
+This repo contains the main app. A second repo contains the curriculum,
+including lesson and project content data. Discourse, a rails based forum,
+is run as-is in a Docker container on Digital Ocean.
+
+This repo contains the main app. It is a fork of the repo for the Odin Project
+that can be found online at [theodinproject.com](https://www.theodinproject.com).
+We expect that modifications to this app will be oriented towards business
+logic such as billing, generating reports for accreditation and management.
+
+A second repo, referred to as the curriculum repo, contains the lesson and
+project content data. Rake tasks in this Odin repo are used to pull in the
+lesson and project content from the appropriate curriculum. For The Odin
+Project, the [curriculum repo is](https://github.com/TheOdinProject/curriculum).
+The [Westlawn curriculum repo is](https://github.com/Westlawn/curriculum).
+
+The Odin project community can be found on the
+[Gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject).
 
 
-## Contributing
+## Contributing to The Odin Project
 [![Build Status](https://travis-ci.org/TheOdinProject/theodinproject.svg?branch=master)](https://travis-ci.org/TheOdinProject/theodinproject)
 [![View Performance Data on Skylight](https://badges.skylight.io/status/g0gJSNnzYAws.svg)](https://oss.skylight.io/app/applications/g0gJSNnzYAws)
 
@@ -24,7 +55,7 @@ We welcome contributions from beginners and experienced developers alike.
 
 To find out more about how you can contribute, please read our [contributing guide](https://github.com/TheOdinProject/theodinproject/wiki/Contributing-Guide).
 
-## Significant Contributors
+## Significant Contributors to The Odin Project
 
 * [Erik Trautman](https://github.com/eriktrautman)
 * [Afshin Moktari](https://github.com/afshinator)
@@ -39,4 +70,5 @@ To find out more about how you can contribute, please read our [contributing gui
 * [Arun Kumar](https://github.com/arun1595)
 
 ---
-Created by [Erik Trautman](http://www.github.com/eriktrautman)
+* Created by [Erik Trautman](http://www.github.com/eriktrautman)
+* Westlawn fork created by [David Smyt](http://www.github.com/david-smyth)
