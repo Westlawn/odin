@@ -45,6 +45,14 @@ The [Westlawn curriculum repo is](https://github.com/Westlawn/curriculum).
 The Odin project community can be found on the
 [Gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject).
 
+## Prepare your repository
+When you first clone the Westlawn/odin repository, you probably need to set the
+upstream repository. I am not sure why, because github does know Westlawn/odin
+in a fork, yet doing a clone does not (or at the time, did not) set the upstream
+repository. I had to do what was documented here:
+* https://help.github.com/articles/configuring-a-remote-for-a-fork/
+* https://help.github.com/articles/syncing-a-fork/
+
 
 ## Contributing to The Odin Project
 [![Build Status](https://travis-ci.org/TheOdinProject/theodinproject.svg?branch=master)](https://travis-ci.org/TheOdinProject/theodinproject)
